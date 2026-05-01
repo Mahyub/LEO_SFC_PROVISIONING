@@ -13,10 +13,6 @@ model is solved with Gurobi 10.0 (warm-start, MIPGap, time limit supported).
 JuMP/Julia: for production use, the Julia JuMP version (src/milp.jl) is
 preferred; this Python version mirrors the model exactly for portability.
 
-Model selection
----------------
-- If |U_n| <= config["use_exact_model_threshold"]: exact model (p variables)
-- Otherwise: coarse model (z and y variables) -- O(U^2) fewer binary vars
 
 Key indexing convention 
 ----------------------------------------------------------
