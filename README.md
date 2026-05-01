@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 The CBC solver is bundled with PuLP. No separate solver installation is needed.
 
-**Optional -- MATLAB topology bridge**: requires MATLAB R2022b or later with the Satellite Communications Toolbox. Only needed for `--mode experiment` with the `base_matlab.json` config. The pure-Python generator (`instance_generator.py`) works without MATLAB.
+**MATLAB topology bridge**: requires MATLAB R2022b or later with the Satellite Communications Toolbox. 
 
 ---
 
