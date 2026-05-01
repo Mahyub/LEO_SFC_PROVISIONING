@@ -1,21 +1,6 @@
 """
 src/instance_generator_matlab.py
-=================================
-Drop-in replacement for InstanceGenerator that delegates topology
-generation to MATLAB via MatlabTopologyBridge, while keeping all
-other generation logic (SFCs, risk params, VNF instances) identical.
 
-Usage
------
-Replace the import in experiment.py / main.py:
-
-    # Before:
-    from src.instance_generator import InstanceGenerator, load_config
-
-    # After:
-    from src.instance_generator_matlab import InstanceGeneratorMatlab as InstanceGenerator, load_config
-
-No other changes needed.
 """
 
 from __future__ import annotations
