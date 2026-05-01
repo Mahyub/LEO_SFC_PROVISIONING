@@ -11,7 +11,6 @@ Key design principle: Risk^ex is ALWAYS evaluated via eq:risk_exact —
 never via the coarse proxy — so that all reported risk values are
 comparable on the same scale.
 
-Corresponds to Phase 3.3 of the Implementation Guide.
 """
 
 from __future__ import annotations
