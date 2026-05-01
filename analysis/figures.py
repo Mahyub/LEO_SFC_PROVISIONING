@@ -11,7 +11,6 @@ Figures produced by generate_all_figures():
   fig_resource.pdf               -- Avg CPU utilization bar chart
   fig_peak_vs_avg_util.pdf       -- Grouped bar: avg vs peak satellite utilization
   fig_migration_epochs.pdf       -- Avoidable migrations per epoch, per method
-  fig_delay_compliance.pdf       -- Delay budget compliance % per method
   fig_bound_tightness.pdf        -- Risk bound tightness (Risk^ex / Risk^UB)
   fig_runtime.pdf                -- Mean solver runtime per method
   fig_risk_epochs.pdf            -- Risk^ex vs. epoch, per method (line chart + CI)
