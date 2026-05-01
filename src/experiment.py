@@ -3,7 +3,6 @@ src/experiment.py
 =================
 Top-level experiment orchestrator.
 
-Implements the execution plan from Phase 7 of the Implementation Guide.
 Runs all four methods (B1, B2, B3, Proposed) across all instances,
 epochs, and scenarios, logging every result to a JSON results file.
 
@@ -23,11 +22,11 @@ The orchestrator:
   3. Writes all results to JSON (one file per scenario).
   4. Prints a summary table.
 
-Logging schema (Phase 7.2):
+Logging schema:
   scenario_id, instance_id, method, epoch, status, obj_value,
   gap_pct, solve_time_s, sa_time_s, risk_ex, risk_lb, risk_ub,
   cap_use, mig_cost, n_migrations, n_avoidable_migrations,
-  norm_base (B1 risk at |U|=80 for normalization)
+  norm_base (B1 risk for normalization)
 """
 
 from __future__ import annotations
