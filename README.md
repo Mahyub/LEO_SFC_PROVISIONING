@@ -169,7 +169,7 @@ The main scenario is defined in `config/base_matlab.json`. Key parameters:
 If you use this code, please cite:
 
 ```bibtex
-@inproceedings{leo_sfc_globecom2025,
+@inproceedings{leo_sfc_provisioning,
   title     = {Cross-Slice Co-Location Risk-Aware SFC Provisioning in Multi-Slice LEO Satellite Networks},
   booktitle = {Proc. IEEE GLOBECOM},
   year      = {2026}
