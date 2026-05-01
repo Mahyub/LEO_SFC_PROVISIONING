@@ -48,7 +48,7 @@ leo_sfc/
 │   ├── user_visibility_logger.py  # User visibility logging
 │   └── types.py                   # Shared dataclasses
 ├── analysis/
-│   ├── figures.py                 # Figure generation (10 plots)
+│   ├── figures.py                 # Figure generation (9 plots)
 │   └── placement_report.py        # Per-hop placement/delay printer
 ├── tests/
 │   └── test_all.py                # Unit test suite (10 tests)
