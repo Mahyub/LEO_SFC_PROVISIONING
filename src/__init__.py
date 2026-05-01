@@ -1,6 +1,5 @@
 # src/__init__.py
 """
-LEO-SFC: Risk-Aware Service Function Chain Provisioning in LEO Satellite Networks
 
 Package structure:
     src.types               — Shared dataclasses and type aliases
