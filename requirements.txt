@@ -4,10 +4,10 @@ pulp>=2.7
 # Numerical
 numpy>=1.24
 
-# Figures (optional -- only needed for --mode figures)
+# Figures 
 matplotlib>=3.7
 
-# MATLAB bridge (optional -- only needed for --mode matlab_*)
+# MATLAB bridge 
 scipy>=1.10
 
 # Testing
