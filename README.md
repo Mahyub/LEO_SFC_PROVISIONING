@@ -22,7 +22,7 @@ The optimizer combines a Mixed-Integer Linear Program (MILP) with a Simulated An
 - **Migration stabilization**: keep-indicator epigraph minimizes avoidable VNF migrations
 - **Walker-Star topology**: 60 satellites, 4 orbital planes, 550 km altitude, 53 deg inclination
 - **Three baselines**: B1 (capacity-only MILP), B2 (capacity + migration MILP), B3 (greedy heuristic)
-- **10 publication-quality figures** reproducible from saved results JSON
+- **9 publication-quality figures** reproducible from saved results JSON
 
 ---
 
