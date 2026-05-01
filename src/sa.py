@@ -7,7 +7,7 @@ Produces a high-quality feasible placement to serve as a warm-start
 incumbent for the MILP solver, following the algorithm pseudocode in
 Phase 1.4 of the Implementation Guide.
 
-Key engineering decisions (from Phase 5.3):
+Key engineering decisions:
   - Placement represented as Dict[(n,u,f) -> (i,s)] for O(1) lookup.
   - Incremental CPU load counters: only two satellites updated per move.
   - Precomputed temperature lookup table: avoids pow() in the hot loop.
