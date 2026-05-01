@@ -4,8 +4,6 @@ src/instance_generator.py
 Generates reproducible simulation instances: topology snapshots, SFCs,
 risk parameters, and VNF instance candidates.
 
-Corresponds to Phase 4 of the Implementation Guide (Scenario Generation)
-and the instance generation protocol (Steps 1-7).
 
 Assumptions
 -----------
