@@ -171,6 +171,7 @@ If you use this code, please cite:
 ```bibtex
 @inproceedings{leo_sfc_provisioning,
   title     = {Cross-Slice Co-Location Risk-Aware SFC Provisioning in Multi-Slice LEO Satellite Networks},
+  author= {Mohammed Mahyoub, Wael Jaafar, Sami Muhaidat, and Halim Yanikomeroglu}
   booktitle = {Proc. IEEE GLOBECOM},
   year      = {2026}
 }
