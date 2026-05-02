@@ -1,7 +1,7 @@
 """
 analysis/figures.py
 ===================
-Post-processing and publication-quality figure generation.
+Post-processing and publication-quality figure generation..
 
 Reads the JSON results files produced by src/experiment.py and generates
 a comprehensive set of evaluation figures plus an extended statistics table.
