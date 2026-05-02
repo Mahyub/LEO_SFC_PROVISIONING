@@ -7,7 +7,7 @@ Implementations of the three baseline methods for comparison:
   B2 — Risk-Unaware:   Minimize CPU with delay constraint (no risk).
   B3 — Greedy:         Nearest-feasible satellite heuristic; no MILP.
 
-B1 and B2 reuse the MILP infrastructure with modified objective weights.
+B1 and B2 reuse the MILP infrastructure with modified objective weights..
 B3 is a pure Python greedy assignment, O(|N|*U*F*S).
 
 All three use the same SolverResult interface and evaluate Risk^ex
