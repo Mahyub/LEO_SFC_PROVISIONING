@@ -3,7 +3,7 @@ analysis/placement_report.py
 =============================
 Loads a saved *_placements.json file and renders per-epoch placement tables
 showing satellite assignments, positions, and delay breakdowns for every
-user in every slice.  Uses only ASCII output so it works on any terminal.
+user in every slice.  Uses only ASCII output so it works on any terminal..
 
 Usage
 -----
